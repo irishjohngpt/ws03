@@ -1,0 +1,86 @@
+html, body{
+    height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(223, 223, 223, .5)
+    }
+    
+    main{
+        flex:1 0 auto;
+    }
+    
+    footer{
+        flex-shrink: 0;
+    }
+    
+    header{
+        background: no-repeat center center;
+        background-size: cover;
+    }
+    
+    .color-overlay{
+        background-color: rgba(0, 0, 0, 0.4);
+        min-height: 60vh;
+    }
+    
+    .singleCol{
+        max-width: 765px;
+    }
+    
+    footer{
+        background-color: #101820;
+    }
+    
+    footer a {
+        color: white;
+    }
+    
+    footer a:hover{
+        color: #dfdfdf;
+    }
+    
+    .profession {
+        color: #dfdfdf;
+        font-size: 5vw;
+        letter-spacing: 1.5px;
+    }
+    
+    .portfolio {
+        letter-spacing: 1px;
+    }
+    
+    h1, h2, li, .card-title {
+        color: #101820;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .btn-outline-dark:hover {
+        background-color: #101820;
+        color: #dfdfdf;
+    }
+    
+    .btn-outline-dark {
+        font-family: 'Rubik', sans-serif;
+        color: #101820;
+    }
+    
+    p, .card-text {
+        font-family: 'Rubik', sans-serif;
+        color: #101820;
+    }
+    
+    .card, .bondoc-portrait {
+        box-shadow: 0 2px 5px 0 rgba(16, 24, 32, 1);
+    }
+    
+    @media (max-width: 768px){
+        .color-overlay{
+            min-height: 30vh;
+        }
+    }
+    You sent
+    Css
+    
